@@ -8,7 +8,7 @@ A combination of hardware and software allowing the user to control programs lik
 
 ### Why?
 
-Because keybpard shortcuts are fragile and unpredictable, and software like AutoHotKey is considered cheating software by a lot of anti-cheat utilities, regardless of what you do with it.
+Because keyboard shortcuts are fragile and unpredictable, and software like AutoHotKey is considered cheating software by a lot of anti-cheat utilities, regardless of what you do with it.
 
 ### When?
 
