@@ -1,6 +1,7 @@
-# Command Deck
+# Tunks keyboards
+> The project that will someday be the ultimate command center upgrade
 
-The project that will someday be the ultimate command center upgrade
+This repo contains the Tunks series keyboard schematics and in the future, the companion app code.
 
 ## What?
 
