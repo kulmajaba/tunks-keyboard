@@ -56,12 +56,12 @@ Connection ~ 2450 5000
 $Comp
 L Device:R_Small R4
 U 1 1 5F14E7F9
-P 3350 3800
-F 0 "R4" V 3154 3800 50  0000 C CNN
-F 1 "10k" V 3245 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3350 3800 50  0001 C CNN
-F 3 "~" H 3350 3800 50  0001 C CNN
-	1    3350 3800
+P 3450 3800
+F 0 "R4" V 3254 3800 50  0000 C CNN
+F 1 "10k" V 3345 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3450 3800 50  0001 C CNN
+F 3 "~" H 3450 3800 50  0001 C CNN
+	1    3450 3800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -75,10 +75,6 @@ F 3 "" H 3600 3800 50  0001 C CNN
 	1    3600 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 3800 3250 3800
-Wire Wire Line
-	3450 3800 3600 3800
 $Comp
 L Device:R_Small R3
 U 1 1 5F152D39
@@ -732,7 +728,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10250 4475 50  0001
 	1    10150 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 5400 4450 0    50   Input ~ 0
+Text GLabel 5750 4450 2    50   Input ~ 0
 LEDS
 Wire Wire Line
 	10450 4850 10550 4850
@@ -1441,13 +1437,11 @@ Wire Wire Line
 Wire Wire Line
 	1300 2000 1200 2000
 Wire Wire Line
-	5600 4600 5600 4850
-Wire Wire Line
 	10800 6050 10800 5700
 Connection ~ 10800 6050
 Wire Wire Line
 	10800 6050 10950 6050
-Text GLabel 5800 4450 2    50   Input ~ 0
+Text GLabel 5600 4250 1    50   Input ~ 0
 LEDS2
 Wire Wire Line
 	5600 4850 6050 4850
@@ -1484,7 +1478,7 @@ F 1 "SolderJumper_3_Bridged12" H 5600 4564 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels" H 5600 4450 50  0001 C CNN
 F 3 "~" H 5600 4450 50  0001 C CNN
 	1    5600 4450
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2000 6750 2100 6750
@@ -2582,4 +2576,26 @@ Text GLabel 3150 4400 2    50   Input ~ 0
 ROW3
 Text GLabel 3150 4500 2    50   Input ~ 0
 ROW4
+Wire Wire Line
+	5600 4650 5600 4850
+Text GLabel 3150 2700 2    50   Input ~ 0
+COL0
+Text GLabel 3150 2600 2    50   Input ~ 0
+COL1
+Text GLabel 3150 2300 2    50   Input ~ 0
+COL2
+Text GLabel 3150 2200 2    50   Input ~ 0
+COL3
+Text GLabel 3150 2100 2    50   Input ~ 0
+COL4
+Text GLabel 3150 3600 2    50   Input ~ 0
+COL5
+Wire Wire Line
+	3550 3800 3600 3800
+Wire Wire Line
+	3150 3800 3350 3800
+Text GLabel 3150 3500 2    50   Input ~ 0
+COL6
+Text GLabel 3150 3300 2    50   Input ~ 0
+LEDS
 $EndSCHEMATC
