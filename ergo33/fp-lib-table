@@ -4,4 +4,5 @@
   (lib (name Type-C)(type KiCad)(uri C:/Users/Mika/koodi/tunks-keyboard/Type-C.pretty)(options "")(descr ""))
   (lib (name WS2812B)(type KiCad)(uri C:/Users/Mika/koodi/tunks-keyboard/WS2812B.pretty)(options "")(descr ""))
   (lib (name tunks-parts)(type KiCad)(uri C:/Users/Mika/koodi/tunks-keyboard/tunks-parts.pretty)(options "")(descr ""))
+  (lib (name ergo33)(type KiCad)(uri ${KIPRJMOD}/ergo33.pretty)(options "")(descr ""))
 )

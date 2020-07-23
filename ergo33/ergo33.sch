@@ -2572,4 +2572,14 @@ Text GLabel 2250 6150 2    50   Input ~ 0
 PWR_IN
 Text GLabel 4850 5850 3    50   Input ~ 0
 PWR_IN
+Text GLabel 3150 4100 2    50   Input ~ 0
+ROW0
+Text GLabel 3150 4200 2    50   Input ~ 0
+ROW1
+Text GLabel 3150 4300 2    50   Input ~ 0
+ROW2
+Text GLabel 3150 4400 2    50   Input ~ 0
+ROW3
+Text GLabel 3150 4500 2    50   Input ~ 0
+ROW4
 $EndSCHEMATC
