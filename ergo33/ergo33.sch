@@ -2598,4 +2598,8 @@ Text GLabel 3150 3500 2    50   Input ~ 0
 COL6
 Text GLabel 3150 3300 2    50   Input ~ 0
 LEDS
+Text GLabel 3150 3200 2    50   Input ~ 0
+ENC1
+Text GLabel 3150 3400 2    50   Input ~ 0
+ENC2
 $EndSCHEMATC
