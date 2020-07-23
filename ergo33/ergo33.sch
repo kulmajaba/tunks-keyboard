@@ -969,7 +969,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 6350 5000 6350
 Wire Wire Line
-	1650 6150 1900 6150
+	1650 6150 1850 6150
 Connection ~ 1650 6150
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -1000,30 +1000,6 @@ Text GLabel 2100 6750 2    50   Input ~ 0
 D+
 Text GLabel 2100 6450 2    50   Input ~ 0
 D-
-Wire Wire Line
-	2100 6150 2250 6150
-$Comp
-L Device:Polyfuse_Small F2
-U 1 1 5F2186AC
-P 2000 6150
-F 0 "F2" V 1795 6150 50  0000 C CNN
-F 1 "500mA" V 1886 6150 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 2050 5950 50  0001 L CNN
-F 3 "~" H 2000 6150 50  0001 C CNN
-	1    2000 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0116
-U 1 1 5F210B55
-P 2250 6150
-F 0 "#PWR0116" H 2250 6000 50  0001 C CNN
-F 1 "+5V" H 2265 6323 50  0000 C CNN
-F 2 "" H 2250 6150 50  0001 C CNN
-F 3 "" H 2250 6150 50  0001 C CNN
-	1    2250 6150
-	1    0    0    -1  
-$EndComp
 Connection ~ 1350 6550
 Wire Wire Line
 	1350 6050 1350 6550
@@ -2579,4 +2555,21 @@ Wire Wire Line
 	10900 6150 10950 6150
 Wire Wire Line
 	10900 5950 10950 5950
+$Comp
+L Jumper:SolderJumper_2_Open JP4
+U 1 1 5F1CFCA6
+P 2000 6150
+F 0 "JP4" H 2000 6355 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2000 6264 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2000 6150 50  0001 C CNN
+F 3 "~" H 2000 6150 50  0001 C CNN
+	1    2000 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6150 2250 6150
+Text GLabel 2250 6150 2    50   Input ~ 0
+PWR_IN
+Text GLabel 4850 5850 3    50   Input ~ 0
+PWR_IN
 $EndSCHEMATC
