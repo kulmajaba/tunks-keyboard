@@ -2570,31 +2570,31 @@ Text GLabel 3150 4100 2    50   Input ~ 0
 ROW0
 Text GLabel 3150 4200 2    50   Input ~ 0
 ROW1
-Text GLabel 3150 4300 2    50   Input ~ 0
+Text GLabel 3150 2200 2    50   Input ~ 0
 ROW2
-Text GLabel 3150 4400 2    50   Input ~ 0
+Text GLabel 3150 2100 2    50   Input ~ 0
 ROW3
-Text GLabel 3150 4500 2    50   Input ~ 0
+Text GLabel 3150 3600 2    50   Input ~ 0
 ROW4
 Wire Wire Line
 	5600 4650 5600 4850
-Text GLabel 3150 2700 2    50   Input ~ 0
+Text GLabel 3150 4300 2    50   Input ~ 0
 COL0
-Text GLabel 3150 2600 2    50   Input ~ 0
+Text GLabel 3150 4400 2    50   Input ~ 0
 COL1
-Text GLabel 3150 2300 2    50   Input ~ 0
+Text GLabel 3150 4500 2    50   Input ~ 0
 COL2
-Text GLabel 3150 2200 2    50   Input ~ 0
+Text GLabel 3150 4600 2    50   Input ~ 0
 COL3
-Text GLabel 3150 2100 2    50   Input ~ 0
+Text GLabel 3150 2700 2    50   Input ~ 0
 COL4
-Text GLabel 3150 3600 2    50   Input ~ 0
+Text GLabel 3150 2600 2    50   Input ~ 0
 COL5
 Wire Wire Line
 	3550 3800 3600 3800
 Wire Wire Line
 	3150 3800 3350 3800
-Text GLabel 3150 3500 2    50   Input ~ 0
+Text GLabel 3150 2300 2    50   Input ~ 0
 COL6
 Text GLabel 3150 3300 2    50   Input ~ 0
 LEDS
