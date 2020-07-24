@@ -1,4 +1,4 @@
-18851775812636456
+18853371428959471
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83012,6 +83012,13 @@ breakaway-mousebites
 0
 0
 0
+tunks-parts
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_Nosilk
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+4
+4
 tunks-parts
 MountingHole_2.2mm_M2_ISO7380_Pad_Courtyard
 Mounting Hole 2.2mm, M2, ISO7380
