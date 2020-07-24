@@ -2602,4 +2602,25 @@ Text GLabel 3150 3200 2    50   Input ~ 0
 ENC1
 Text GLabel 3150 3400 2    50   Input ~ 0
 ENC2
+$Comp
+L Device:C_Small C19
+U 1 1 5F1BC5FF
+P 1500 1300
+F 0 "C19" V 1271 1300 50  0000 C CNN
+F 1 "510pF" V 1362 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1500 1300 50  0001 C CNN
+F 3 "~" H 1500 1300 50  0001 C CNN
+	1    1500 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 1700 1700 1300
+Wire Wire Line
+	1700 1300 1600 1300
+Connection ~ 1700 1700
+Wire Wire Line
+	1400 1300 1300 1300
+Wire Wire Line
+	1300 1300 1300 1600
+Connection ~ 1300 1600
 $EndSCHEMATC
