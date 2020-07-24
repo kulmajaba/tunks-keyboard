@@ -371,17 +371,6 @@ Connection ~ 600  2400
 Wire Wire Line
 	600  2250 600  1750
 Connection ~ 600  2250
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5F1C2729
-P 1500 1700
-F 0 "SW1" H 1500 1985 50  0000 C CNN
-F 1 "SW_Push" H 1500 1894 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 1500 1900 50  0001 C CNN
-F 3 "~" H 1500 1900 50  0001 C CNN
-	1    1500 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1700 1700 1800 1700
 $Comp
@@ -2526,5 +2515,16 @@ F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 4800 6200 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 5000 7050 50  0001 C CNN
 	1    4800 6700
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F1C2729
+P 1500 1700
+F 0 "SW1" H 1500 1985 50  0000 C CNN
+F 1 "SW_Push" H 1500 1894 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 1500 1900 50  0001 C CNN
+F 3 "~" H 1500 1900 50  0001 C CNN
+	1    1500 1700
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
