@@ -6839,7 +6839,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 2.52))
     (polygon
       (pts
-        (xy 196.8 27.4) (xy 201 101.5) (xy 171.75 145) (xy 62.2 114.4) (xy 20.3 115)
+        (xy 196.8 27.4) (xy 201 101.5) (xy 171.8 144.1) (xy 62.4 114.3) (xy 20.3 115)
         (xy 14.7 20) (xy 23.2 16.5) (xy 82.2 16.5)
       )
     )
@@ -8354,7 +8354,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 68.6 116.4) (xy 71 117.3) (xy 72.1 137.6) (xy 23 141.5) (xy 23.4 116)
+        (xy 68.4 116.6) (xy 70.9 117.7) (xy 72.1 137.6) (xy 23 141.5) (xy 23.4 116)
       )
     )
     (filled_polygon
