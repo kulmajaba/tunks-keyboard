@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 43)
+    (drawings 44)
     (tracks 996)
     (zones 0)
     (modules 143)
@@ -6802,6 +6802,9 @@
     )
   )
 
+  (gr_text "If you can\nread this,\nyour keypad\nprobably\ndoesn't work" (at 174.9 66.2) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text JLCJLCJLCJLC (at 31.2 111) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
